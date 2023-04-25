@@ -6,3 +6,25 @@
 .dropdown-menu{
     font-weight: bolder;
 }
+
+#invoiceTag{
+
+    font-weight: bolder;
+    border: 2px solid red;
+
+}
+
+#grid{
+    background-color: rgba(124, 118, 118, 0.2);
+
+}
+
+#grid02{
+    background-color: rgba(124, 118, 118, 0.2);
+    padding: 10px;
+}
+
+#grid03{
+    background-color: rgba(124, 118, 118, 0.2);
+
+}

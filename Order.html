@@ -61,8 +61,8 @@
 
 <section class="container-fluid">
 
-   <div class="row bg-blue" >
-       <form class="row g-3 " style="font-size: small">
+   <div class="row " id="grid" >
+       <form class="row g-3" style="font-size: small">
            <div class="col-md-4">
                <label for="inputOrderId" class="form-label">Order ID :</label>
                <input type="text" class="form-control" id="inputOrderId">
@@ -102,15 +102,45 @@
 
        </form>
    </div>
+
     <br>
 
-   <div class="row">
+   <div class="row " >
 
-       <div class="col" style="border: 1px solid black">
-           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab autem cumque debitis, esse expedita facere libero maiores neque nihil nobis nulla quaerat quam, voluptate. Delectus illo praesentium quae veniam voluptatum.</p>
+       <div class="col-md-6" id="grid02" >
+           <form class="row g-3">
+               <div class="col-md-5">
+                   <label for="inputItem" class="form-label">Item :</label>
+                   <select id="inputItem" class="form-select">
+                       <option selected>Item 01</option>
+                       <option selected>Item 02</option>
+                       <option selected>Item 03</option>
+                   </select>
+               </div>
+               <div class="col-md-7">
+                   <label for="inputItemCode" class="form-label">Item Code :</label>
+                   <input type="text" class="form-control" id="inputItemCode" placeholder="P001">
+               </div>
+               <div class="col-md-6">
+                   <label for="inputItemName" class="form-label">Item Name :</label>
+                   <input type="text" class="form-control" id="inputItemName" placeholder="Keerisamba 5kg">
+               </div>
+               <div class="col-3">
+                   <label for="inputPrice" class="form-label">Price :</label>
+                   <input type="text" class="form-control" id="inputPrice" placeholder="1234.00">
+               </div>
+               <div class="col-3">
+                   <label for="inputQty" class="form-label">QTY ON HAND :</label>
+                   <input type="text" class="form-control" id="inputQty" placeholder="120">
+               </div>
+               <div class="col-12">
+                   <label for="inputOrderQty" class="form-label">Order QTY :</label>
+                   <input type="text" class="form-control" id="inputOrderQty" placeholder="3">
+               </div>
+           </form>
        </div>
 
-       <div class=" col" style="border: 1px solid black">
+       <div class="col-md-6" id="grid03" >
            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab autem cumque debitis, esse expedita facere libero maiores neque nihil nobis nulla quaerat quam, voluptate. Delectus illo praesentium quae veniam voluptatum.</p>
        </div>
    </div>
