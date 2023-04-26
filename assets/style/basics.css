@@ -11,30 +11,20 @@
 
     font-weight: bolder;
     border: 2px solid red;
-
 }
 
 #grid{
     background-color: rgba(124, 118, 118, 0.2);
-
 }
 
-#grid02{
-    background-color: rgba(124, 118, 118, 0.2);
-    padding: 10px;
-    width: 48vw;
-}
+
 
 #grid02Top{
     background-color: #070000;
-    width: 48vw;
+    width: 47vw;
 }
 #grid03Top{
     background-color: #070000;
-    width: 100vw
-}
-#grid03{
-    background-color: rgba(124, 118, 118, 0.2);
 }
 
 #grid04{
@@ -53,11 +43,12 @@
 }
 
 #secondRow{
-    width: 48vw;
+    width: 47vw;
     height:240px ;
     background-color: #0a53be;
     border-radius:20px;
     color: white;
+    margin-left: 10px;
 }
 
 #thrdRow{
@@ -65,5 +56,7 @@
     height:240px ;
     background-color: #0a53be;
     border-radius:20px;
+    position: relative;
+    margin-left: 40px;
     color: white;
 }
