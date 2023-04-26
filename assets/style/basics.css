@@ -26,14 +26,44 @@
 }
 
 #grid02Top{
-    background-color: greenyellow;
+    background-color: #070000;
     width: 48vw;
 }
 #grid03Top{
-    background-color: greenyellow;
+    background-color: #070000;
     width: 100vw
 }
 #grid03{
     background-color: rgba(124, 118, 118, 0.2);
+}
 
+#grid04{
+    background-color: #070000;
+    width: max-content;
+    height: max-content;
+}
+
+#firstRow{
+    width: 98vw;
+    background-color: #0a53be;
+    height:240px;
+    border-radius:20px;
+    color: white;
+    margin-left: 20px;
+}
+
+#secondRow{
+    width: 48vw;
+    height:240px ;
+    background-color: #0a53be;
+    border-radius:20px;
+    color: white;
+}
+
+#thrdRow{
+    width: 48vw;
+    height:240px ;
+    background-color: #0a53be;
+    border-radius:20px;
+    color: white;
 }
