@@ -22,8 +22,17 @@
 #grid02{
     background-color: rgba(124, 118, 118, 0.2);
     padding: 10px;
+    width: 48vw;
 }
 
+#grid02Top{
+    background-color: greenyellow;
+    width: 48vw;
+}
+#grid03Top{
+    background-color: greenyellow;
+    width: 100vw
+}
 #grid03{
     background-color: rgba(124, 118, 118, 0.2);
 

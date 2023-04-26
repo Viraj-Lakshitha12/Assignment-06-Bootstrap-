@@ -62,86 +62,99 @@
 <section class="container-fluid">
 
    <div class="row " id="grid" >
-       <form class="row g-3" style="font-size: small">
-           <div class="col-md-4">
-               <label for="inputOrderId" class="form-label">Order ID :</label>
-               <input type="text" class="form-control" id="inputOrderId">
-           </div>
-           <div class="col-md-4">
-               <label for="inputCustomer" class="form-label">Customer :</label>
-               <select id="inputCustomer" class="form-select">
-                   <option selected>Choose-1</option>
-                   <option>Choose-2</option>
-               </select>
-           </div>
+       <div class="row"><h3 id="grid03Top">Invoice</h3></div>
+       <div class="row">
 
-           <div class="col-md-4">
-               <label for="1" class="form-label">Customer ID :</label>
-               <input type="text" class="form-control" id="1">
-           </div>
+           <form class="row g-3" style="font-size: x-small">
+               <div class="col-md-4">
+                   <label for="inputOrderId" class="form-label">Order ID :</label>
+                   <input type="text" class="form-control" id="inputOrderId">
+               </div>
+               <div class="col-md-4">
+                   <label for="inputCustomer" class="form-label">Customer :</label>
+                   <select id="inputCustomer" class="form-select">
+                       <option selected>Choose-1</option>
+                       <option>Choose-2</option>
+                   </select>
+               </div>
 
-           <div class="col-3">
-               <label for="inputDate" class="form-label">Date :</label>
-               <input type="date" class="form-control" id="inputDate">
-           </div>
+               <div class="col-md-4">
+                   <label for="1" class="form-label">Customer ID :</label>
+                   <input type="text" class="form-control" id="1">
+               </div>
 
-           <div class="col-5">
-               <label for="inputName" class="form-label">Name :</label>
-               <input type="text" class="form-control" id="inputName" placeholder="Full Name">
-           </div>
+               <div class="col-3">
+                   <label for="inputDate" class="form-label">Date :</label>
+                   <input type="date" class="form-control" id="inputDate">
+               </div>
 
-           <div class="col-md-4">
-               <label for="inputSalary" class="form-label">Salary :</label>
-               <input type="text" class="form-control" id="inputSalary">
-           </div>
+               <div class="col-5">
+                   <label for="inputName" class="form-label">Name :</label>
+                   <input type="text" class="form-control" id="inputName" placeholder="Full Name">
+               </div>
 
-           <div class="col-12">
-               <label for="inputAddress" class="form-label">Address</label>
-               <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-           </div>
+               <div class="col-md-4">
+                   <label for="inputSalary" class="form-label">Salary :</label>
+                   <input type="text" class="form-control" id="inputSalary">
+               </div>
 
-       </form>
+               <div class="col-12">
+                   <label for="inputAddress" class="form-label">Address</label>
+                   <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+               </div>
+
+           </form>
+       </div>
+
+
+
    </div>
 
     <br>
 
-   <div class="row " >
+   <div class="row" >
 
-       <div class="col-md-6" id="grid02" >
-           <form class="row g-3">
-               <div class="col-md-5">
-                   <label for="inputItem" class="form-label">Item :</label>
-                   <select id="inputItem" class="form-select">
-                       <option selected>Item 01</option>
-                       <option selected>Item 02</option>
-                       <option selected>Item 03</option>
-                   </select>
-               </div>
-               <div class="col-md-7">
-                   <label for="inputItemCode" class="form-label">Item Code :</label>
-                   <input type="text" class="form-control" id="inputItemCode" placeholder="P001">
-               </div>
-               <div class="col-md-6">
-                   <label for="inputItemName" class="form-label">Item Name :</label>
-                   <input type="text" class="form-control" id="inputItemName" placeholder="Keerisamba 5kg">
-               </div>
-               <div class="col-3">
-                   <label for="inputPrice" class="form-label">Price :</label>
-                   <input type="text" class="form-control" id="inputPrice" placeholder="1234.00">
-               </div>
-               <div class="col-3">
-                   <label for="inputQty" class="form-label">QTY ON HAND :</label>
-                   <input type="text" class="form-control" id="inputQty" placeholder="120">
-               </div>
-               <div class="col-12">
-                   <label for="inputOrderQty" class="form-label">Order QTY :</label>
-                   <input type="text" class="form-control" id="inputOrderQty" placeholder="3">
-               </div>
-           </form>
+       <div class="col-md-6" >
+           <div class="row" id="grid02Top"><h3 style="margin-left:250px">Invoice</h3></div>
+           <div class="row" id="grid02" >
+               <form class="row g-3" style="font-size: x-small">
+                   <div class="col-md-5">
+                       <label for="inputItem" class="form-label">Item :</label>
+                       <select id="inputItem" class="form-select">
+                           <option selected>Item 01</option>
+                           <option selected>Item 02</option>
+                           <option selected>Item 03</option>
+                       </select>
+                   </div>
+                   <div class="col-md-7">
+                       <label for="inputItemCode" class="form-label">Item Code :</label>
+                       <input type="text" class="form-control" id="inputItemCode" placeholder="P001">
+                   </div>
+                   <div class="col-md-6">
+                       <label for="inputItemName" class="form-label">Item Name :</label>
+                       <input type="text" class="form-control" id="inputItemName" placeholder="Keerisamba 5kg">
+                   </div>
+                   <div class="col-3">
+                       <label for="inputPrice" class="form-label">Price :</label>
+                       <input type="text" class="form-control" id="inputPrice" placeholder="1234.00">
+                   </div>
+                   <div class="col-3">
+                       <label for="inputQty" class="form-label">QTY ON HAND :</label>
+                       <input type="text" class="form-control" id="inputQty" placeholder="120">
+                   </div>
+                   <div class="col-12">
+                       <label for="inputOrderQty" class="form-label">Order QTY :</label>
+                       <input type="text" class="form-control" id="inputOrderQty" placeholder="3">
+                   </div>
+               </form>
+           </div>
        </div>
 
        <div class="col-md-6" id="grid03" >
-           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab autem cumque debitis, esse expedita facere libero maiores neque nihil nobis nulla quaerat quam, voluptate. Delectus illo praesentium quae veniam voluptatum.</p>
+           <div class="row">
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab autem cumque debitis, esse expedita facere libero maiores neque nihil nobis nulla quaerat quam, voluptate. Delectus illo praesentium quae veniam voluptatum.</p>
+
+           </div>
        </div>
    </div>
 
