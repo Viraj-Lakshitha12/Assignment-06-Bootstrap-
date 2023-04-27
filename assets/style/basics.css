@@ -1,3 +1,7 @@
+*{
+    background-color: black;
+}
+
 .navbar-brand{
     font-weight: bolder;
     font-size: 25px;
@@ -8,7 +12,6 @@
 }
 
 #invoiceTag{
-
     font-weight: bolder;
     border: 2px solid red;
 }
@@ -20,18 +23,19 @@
 
 
 #grid02Top{
-    background-color: #070000;
     width: 47vw;
     border-radius: 5px;
+    margin-left: 180px;
 }
 #grid03Top{
-    background-color: #070000;
-    border-radius: 5px;
+    margin-left: 600px;
+    width: max-content;
+    background-color: #0003ff;
+
 }
 
 #firstRow{
     width: 98vw;
-    background-color: #0a53be;
     height:240px;
     border-radius:20px;
     color: white;
@@ -41,7 +45,6 @@
 #secondRow{
     width: 47vw;
     height:240px ;
-    background-color: #0a53be;
     border-radius:20px;
     color: white;
     margin-left: 10px;
@@ -50,7 +53,6 @@
 #thrdRow{
     width: 50vw;
     height:240px ;
-    background-color: #0a53be;
     border-radius:20px;
     position: relative;
     margin-left: 15px;
