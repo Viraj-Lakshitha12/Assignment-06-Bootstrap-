@@ -70,3 +70,11 @@
     margin-top: 20px;
     margin-left: 300px;
 }
+
+.dropdown-menu{
+    background-color: blue;
+}
+
+.dropdown-item:hover{
+    color: black;
+}
