@@ -78,3 +78,11 @@
 .dropdown-item:hover{
     color: black;
 }
+
+#customerGrid01{
+    width: 100vw;
+    height: 7vh;
+    background-color: blue;
+    border-radius: 6px;
+    color: white;
+}
