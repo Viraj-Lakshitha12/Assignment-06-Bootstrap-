@@ -63,7 +63,7 @@
 
    <div class="row " id="grid" >
        <div class="col-md-12" style="margin: 10px" id="firstRow">
-           <div class="row"><h3 id="grid03Top">Invoice</h3></div>
+           <div class="row"><h3 id="grid03Top">Invoice Details</h3></div>
            <div class="row">
                <form class="row input-group-sm" style="font-size: x-small">
                    <div class="col-md-4">
@@ -112,7 +112,7 @@
 
    <div class="row" >
        <div class="col-md-6" id="secondRow" >
-           <div class="row" id="grid02Top"><h3 style="margin-left:250px">Invoice</h3></div>
+           <div class="row" id="grid02Top"><h3>Item Select</h3></div>
            <div class="row">
                <form class="row input-group-sm" style="font-size: x-small">
                    <div class="col-md-5">
@@ -148,7 +148,7 @@
        </div>
 
        <div class="col-md-6" id="thrdRow" >
-           <div class="row" id="grid04" style="margin-left:250px"><h3>Invoice</h3></div>
+           <div class="row" id="grid04Top"><h3 >Payment</h3></div>
            <div class="row">
                <form class="row input-group-sm " style="font-size: x-small">
                    <div class="col-md-6">
@@ -163,41 +163,52 @@
                        <label for="inputBalance" class="form-label">Balance :</label>
                        <input type="text" class="form-control" id="inputBalance" placeholder="4055">
                    </div>
+                   <div>
+                   <button type="button" class="btn btn-outline-warning" id="btnPurchase">Purchase</button>
+                   </div>
                </form>
+
            </div>
        </div>
    </div>
 
-   <div class="row" style="border: 1px solid black">
-           <table class="table table-dark table-hover">
+   <div class="row ">
+       <div class="col">
+           <table class="table table-dark table-hover table-sm">
                <thead>
                <tr>
-                   <th scope="col">#</th>
-                   <th scope="col">First</th>
-                   <th scope="col">Last</th>
-                   <th scope="col">Handle</th>
+                   <th scope="col">Item Code</th>
+                   <th scope="col">Item Name</th>
+                   <th scope="col">Price</th>
+                   <th scope="col">Qty</th>
+                   <th scope="col">Total</th>
                </tr>
                </thead>
                <tbody>
                <tr>
-                   <th scope="row">1</th>
-                   <td>Mark</td>
-                   <td>Otto</td>
-                   <td>@mdo</td>
+                   <th scope="row">P002</th>
+                   <td>Keerisamba 5KG</td>
+                   <td>525.00</td>
+                   <td>2</td>
+                   <td>1000</td>
                </tr>
                <tr>
-                   <th scope="row">2</th>
-                   <td>Jacob</td>
-                   <td>Thornton</td>
-                   <td>@fat</td>
+                   <th scope="row">P002</th>
+                   <td>Keerisamba 5KG</td>
+                   <td>525.00</td>
+                   <td>2</td>
+                   <td>1000</td>
                </tr>
                <tr>
-                   <th scope="row">3</th>
-                   <td colspan="2">Larry the Bird</td>
-                   <td>@twitter</td>
+                   <th scope="row">P002</th>
+                   <td>Keerisamba 5KG</td>
+                   <td>525.00</td>
+                   <td>2</td>
+                   <td>1000</td>
                </tr>
                </tbody>
            </table>
+       </div>
    </div>
 
 </section>

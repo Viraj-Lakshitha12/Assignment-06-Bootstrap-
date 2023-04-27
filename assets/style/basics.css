@@ -22,15 +22,11 @@
 #grid02Top{
     background-color: #070000;
     width: 47vw;
+    border-radius: 5px;
 }
 #grid03Top{
     background-color: #070000;
-}
-
-#grid04{
-    background-color: #070000;
-    width: max-content;
-    height: max-content;
+    border-radius: 5px;
 }
 
 #firstRow{
@@ -52,11 +48,23 @@
 }
 
 #thrdRow{
-    width: 48vw;
+    width: 50vw;
     height:240px ;
     background-color: #0a53be;
     border-radius:20px;
     position: relative;
-    margin-left: 40px;
+    margin-left: 15px;
     color: white;
+}
+
+
+#grid04Top{
+    background-color: #070000;
+    width: 50vw;
+    border-radius: 5px;
+}
+
+#btnPurchase{
+    margin-top: 20px;
+    margin-left: 300px;
 }
