@@ -86,3 +86,33 @@
     border-radius: 6px;
     color: white;
 }
+
+.form{
+    color: white;
+}
+.form:focus {
+    border-color: #4d90fe;
+    box-shadow: none;
+}
+
+.form-select:hover{
+  color: #0028ee;
+}
+
+#btnCrud{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#btnSearch{
+    margin-left: 300px;
+}
+
+#ItemGrid01{
+    width: 100vw;
+    height: 7vh;
+    background-color: blue;
+    border-radius: 6px;
+    color: white;
+}
