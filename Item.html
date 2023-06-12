@@ -84,12 +84,43 @@
                 <button type="submit" class="btn btn-primary" id="btnSearch">SEARCH</button>
             </form>
         </div>
-        <div class="col" id="btnCrud"><br>
-            <button type="button" class="btn btn-outline-warning"><i class="fa-solid fa-plus" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo"></i>   SAVE</button>
-            <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pen-to-square"></i>   UPDATE</button>
-            <button type="button" class="btn btn-outline-success"><i class="fa-regular fa-circle-check"></i>   CLEAR</button>
-            <button type="button" class="btn btn-outline-danger"><i class="fa-solid fa-trash"></i>   DELETE</button>
-            <button type="button" class="btn btn-outline-light"><i class="fa-solid fa-arrows-rotate"></i>   REFRESH</button>
+
+        <div class="col"><br>
+            <div class="row">
+                <form class="row input-group-sm" id="itemForm">
+                    <div class="col-md-4">
+                        <label for="itemID" class="form-label">Item ID :</label>
+                        <input type="text" class="form-control" id="itemID" placeholder="C001">
+                    </div>
+
+                    <div class="col-md-7">
+                        <label for="itemName" class="form-label">Item Name :</label>
+                        <input type="text" class="form-control" id="itemName" placeholder="Full Name">
+                    </div>
+
+                    <div class="col-5">
+                        <label for="itemQty" class="form-label">Qty :</label>
+                        <input type="text" class="form-control" id="itemQty" placeholder="20">
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="itemUnitPrice" class="form-label">Unit Price :</label>
+                        <input type="text" class="form-control" id="itemUnitPrice" placeholder="12345.00">
+                    </div>
+
+
+                </form>
+            </div>
+            <div class="row">
+                <div id="btnCrud">
+                    <button type="button" class="btn btn-outline-warning"><i class="fa-solid fa-plus" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo"></i>   SAVE</button>
+                    <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pen-to-square"></i>   UPDATE</button>
+                    <button type="button" class="btn btn-outline-success"><i class="fa-regular fa-circle-check"></i>   CLEAR</button>
+                    <button type="button" class="btn btn-outline-danger"><i class="fa-solid fa-trash"></i>   DELETE</button>
+                    <button type="button" class="btn btn-outline-light"><i class="fa-solid fa-arrows-rotate"></i>   REFRESH</button>
+                </div>
+            </div>
+
         </div>
     </div>
 
